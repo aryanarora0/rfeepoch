@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import torch 
-import torch as nn
+import torch.nn as nn
 from model import MLP
 from training import train_epoch
 from torch.utils.data import TensorDataset, DataLoader
@@ -31,6 +31,6 @@ def custom_rfe(x, y, num_features, batch_size = 32):
         min_idx = torch.argmin(feature_importance).item()
         elim_feature = sel_features.pop(min_idx)
         elim_features.append(elim_feature)
-        print(f'Eliminated feature {elim_feature} which had importance {feature_importance[min_idx].item()}')
+        print(f'Eliminated feature {elim_feature}. Importance: {feature_importance[min_idx].item()}\n')
     
     return sel_features, elim_features

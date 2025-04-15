@@ -16,6 +16,6 @@ def train_epoch(model, train_loader, criterion, optimizer, loss_log, n_epoch=10)
         avg_loss = total_loss / len(train_loader)
         loss_log.append(avg_loss)
 
-        print(f'Epoch {epoch+1}, Average Loss: {avg_loss:.4f}')
+        print(f'Epoch {epoch+1} - Average Loss: {avg_loss:.4f}')
 
     return avg_loss
