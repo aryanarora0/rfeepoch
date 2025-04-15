@@ -23,7 +23,7 @@ def custom_rfe(x, y, num_features, batch_size = 32):
         loss_log = []
         train_epoch(model, train_loader, criterion, optimizer, loss_log)
         
-        #feature importance using absolute weights of the first layer, sum oever output neurons
+        #feature importance using absolute weights of the first layer, sum over output neurons
         with torch.no_grad():
             weights = model.layer1.weight.data.abs()
             feature_importance = torch.sum(weights, dim=0)
