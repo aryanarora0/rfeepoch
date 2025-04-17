@@ -1,0 +1,66 @@
+- Run 1:
+Epoch 1 - Average Loss: 0.6956
+Epoch 2 - Average Loss: 0.6761
+Epoch 3 - Average Loss: 0.6142
+Epoch 4 - Average Loss: 0.5114
+Epoch 5 - Average Loss: 0.4901
+Epoch 6 - Average Loss: 0.1175
+Epoch 7 - Average Loss: 0.4818
+Epoch 8 - Average Loss: 0.1847
+Epoch 9 - Average Loss: 0.0142
+Epoch 10 - Average Loss: -0.2201
+Eliminated feature 8. Importance: 4.931371688842773
+
+Epoch 1 - Average Loss: 0.4454
+Epoch 2 - Average Loss: 0.4508
+Epoch 3 - Average Loss: 0.7096
+Epoch 4 - Average Loss: 0.3961
+Epoch 5 - Average Loss: 0.3470
+Epoch 6 - Average Loss: 0.3004
+Epoch 7 - Average Loss: 0.2821
+Epoch 8 - Average Loss: 0.2517
+Epoch 9 - Average Loss: -0.0025
+Epoch 10 - Average Loss: 0.0960
+Eliminated feature 6. Importance: 4.323017120361328
+
+Epoch 1 - Average Loss: 0.7295
+Epoch 2 - Average Loss: 0.6132
+Epoch 3 - Average Loss: 0.5262
+Epoch 4 - Average Loss: 0.5695
+Epoch 5 - Average Loss: 0.3924
+Epoch 6 - Average Loss: 0.2387
+Epoch 7 - Average Loss: -0.0146
+Epoch 8 - Average Loss: 0.2087
+Epoch 9 - Average Loss: 0.4827
+Epoch 10 - Average Loss: 0.3537
+Eliminated feature 3. Importance: 4.180345058441162
+
+Epoch 1 - Average Loss: 0.6302
+Epoch 2 - Average Loss: 0.5223
+Epoch 3 - Average Loss: 0.4495
+Epoch 4 - Average Loss: 0.4294
+Epoch 5 - Average Loss: 0.4070
+Epoch 6 - Average Loss: 0.1102
+Epoch 7 - Average Loss: -0.0060
+Epoch 8 - Average Loss: -0.2860
+Epoch 9 - Average Loss: 0.2104
+Epoch 10 - Average Loss: 0.0747
+Eliminated feature 0. Importance: 5.15912389755249
+
+Epoch 1 - Average Loss: 0.6793
+Epoch 2 - Average Loss: 0.6699
+Epoch 3 - Average Loss: 0.5884
+Epoch 4 - Average Loss: 0.5046
+Epoch 5 - Average Loss: 0.4690
+Epoch 6 - Average Loss: 0.3193
+Epoch 7 - Average Loss: 0.4562
+Epoch 8 - Average Loss: 0.1398
+Epoch 9 - Average Loss: -0.3073
+Epoch 10 - Average Loss: 0.1880
+Eliminated feature 2. Importance: 5.8392181396484375
+
+Selected features after RFE: [1, 4, 5, 7, 9]
+Eliminated features: [8, 6, 3, 0, 2]
+
+- Run 2 (real usecase):
+{}
