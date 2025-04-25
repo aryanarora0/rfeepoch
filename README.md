@@ -1,2 +1,2 @@
 # rfeepoch
-integrating custom recursive feature elimination in pytorch
+integrating custom recursive feature elimination in PyTorch
